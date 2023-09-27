@@ -25,4 +25,7 @@ public class Sorter {
             array[i+1] = key;
         }
     }
+    public static int[] Sort(int[] Array){
+        insertionSort(Array);
+    }
 }
