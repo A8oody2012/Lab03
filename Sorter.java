@@ -26,6 +26,6 @@ public class Sorter {
         }
     }
     public static int[] Sort(int[] Array){
-        insertionSort(Array);
+        selectionSort(Array);
     }
 }
