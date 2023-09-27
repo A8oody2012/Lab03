@@ -25,7 +25,10 @@ public class Sorter {
             array[i+1] = key;
         }
     }
-    public static int[] Sort(int[] Array){
+    public static void SortSelecttion(int[] Array){
         selectionSort(Array);
+    }
+    public static void Sort(int[] Array){
+        insertionSort(Array);
     }
 }
